@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Docker, the best Tech?",
+        "content": "Docker may be the best way to standarize apps across different platforms",
+        "date-created": "1.31.22",
+        "user_id": 1
+    },
+
+    {
+        "title": "M1 chips",
+        "content": "Both new Macs and old Macs prestent problems for coders",
+        "date-created": "2.1.22",
+        "user_id": 2
+    },
+
+    {
+        "title": "Audio Plugins",
+        "content": "Is C# the only language used to create audio plugins",
+        "date-created": "2.2.22",
+        "user_id": 3
+    },
+
+    {
+        "title": "Feeling Overwhelmed",
+        "content": "Coding will make you feel overwhemled",
+        "date-created": "2.3.22",
+        "user_id": 4
+    },
+
+    {
+        "title": "So far to go",
+        "content": "I've learned a lot, but still have so far to go before I feel like i can grasp this",
+        "date-created": "2.4.22",
+        "user_id": 5
+    }
+
+
+]

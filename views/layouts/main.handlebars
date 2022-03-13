@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to the Tech Blog!</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div class="flex-column justify-space-around">
+    <header class="display-flex justify-space-between align-center p-2 mainheader">
+      <toolbar class="toolbar">
+      <h1><a href="/">Home</a></h1>
+      <h1><a href="/">Dashboard</a></h1>
+      <h1><a href="/">Login</a></h1>
+      </toolbar>
+        <h1 class='title'>
+        <a href="/" class="title">The Tech Blog</a>
+        </h1>
+      <nav>
+        <!-- render login or logout links if the user is logged in/out -->
+        {{#if logged_in}}
+        <a href="/profile">profile</a> |
+        <button class="no-button" id="logout">logout</button>
+        {{else}}
+        <a href="/login">login</a>
+        {{/if}}
+      </nav>
+    </header>
+    <main class="container container-fluid mt-5">
+      <!-- Render the body layout -->
+      {{{ body }}}
+    </main>
+    <footer>
+      
+    </footer>
+  </div>
+
+  <!-- Render script for logged in users only -->
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+</body>
+
+</html>
