@@ -22,7 +22,7 @@
 Tech-Blog-MVC
 
 ## Description
-A blog site where users can publish articles, posts, thoughts and opinions on different topics.
+A blog site where users can publish articles, posts, thoughts and opinions on different topics. Deployed at Heroku: https://mvc-tech-blog-jb.herokuapp.com/
 
 ## Installation
 install node and mysql2
